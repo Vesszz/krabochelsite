@@ -1,3 +1,59 @@
-.red {
-  color: red;
+body{
+  background: #252525;
+  box-sizing: border-box;
+}
+.centered{
+  text-align: center; 
+}
+a{
+  text-decoration: none
+}
+.impact{
+  font-family: Impact;
+}
+.pinky{
+  color:#ff4040;
+}
+.gray{
+  letter-spacing: 0.6px;
+  font-size: 24px;
+  color: #fdf4e3;
+}
+#members{
+  display: grid;
+  gap: 5vw;
+  grid-template-columns: repeat(5, 200px);
+  justify-content: center;
+  margin-bottom: -1vw;
+}
+
+.card {
+  border: 2px solid #ff4040;
+  width: 250px;
+  height: 400px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  transition-duration: .2s;
+  transition-property: background;
+}
+.card:hover {
+  background: #ff4040;
+}
+.member{
+  display:flex;
+  width: 200px;
+  height: 300px;
+  border-radius: 12px;
+}
+#Krabochel{
+  color:#fdf4e3;
+  font-size: 15vw;
+  margin-top:-17vw;
+  margin-bottom: -16vw;
+} 
+#UnderKrabochel{
+  color: #fdf4e3;
+  font-size: 3vw;
+  margin-bottom: -2vw;
 }
